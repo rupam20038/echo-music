@@ -255,7 +255,7 @@ dependencies {
   implementation(project(":usbaudio"))
 
   // Firebase - GMS flavor only (excluded from F-Droid / FOSS builds)
-  "gmsImplementation"(platform("com.google.firebase:firebase-bom:34.19.0"))
+  "gmsImplementation"(platform("com.google.firebase:firebase-bom:35.2.0"))
   "gmsImplementation"("com.google.firebase:firebase-analytics")
   "gmsImplementation"("com.google.firebase:firebase-crashlytics")
 
